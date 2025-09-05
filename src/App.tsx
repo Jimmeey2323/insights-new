@@ -16,7 +16,6 @@ import ClassAttendance from "./pages/ClassAttendance";
 import DiscountsPromotions from "./pages/DiscountsPromotions";
 import Sessions from "./pages/Sessions";
 import PowerCycleVsBarre from "./pages/PowerCycleVsBarre";
-import PowerCycleVsBarre from "./pages/PowerCycleVsBarre";
 import LateCancellations from "./pages/LateCancellations";
 import NotFound from "./pages/NotFound";
 
@@ -39,7 +38,6 @@ const App = () => (
           <Route path="/class-attendance" element={<ClassAttendance />} />
           <Route path="/discounts-promotions" element={<DiscountsPromotions />} />
           <Route path="/sessions" element={<Sessions />} />
-          <Route path="/powercycle-vs-barre" element={<PowerCycleVsBarre />} />
           <Route path="/powercycle-vs-barre" element={<PowerCycleVsBarre />} />
           <Route path="/late-cancellations" element={<LateCancellations />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
